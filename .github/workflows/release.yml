@@ -13,3 +13,8 @@ jobs:
     permissions:
       contents: write
       id-token: write
+      actions: write
+    secrets:
+      GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+      VSCE_PAT: ${{secrets.VSCE_PAT}}
+      OVSX_PAT: ${{secrets.OVSX_PAT}}
