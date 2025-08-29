@@ -10,3 +10,6 @@ jobs:
     uses: kvoon3/workflows/.github/workflows/pnpm-release.yml@main
     with:
       publish: vscode
+    permissions:
+      contents: write
+      id-token: write
