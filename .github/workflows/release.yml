@@ -9,4 +9,4 @@ jobs:
   release:
     uses: kvoon3/workflows/.github/workflows/pnpm-release.yml@main
     with:
-      publish: 'vscode'
+      publish: vscode
