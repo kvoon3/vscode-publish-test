@@ -2,7 +2,7 @@
   "publisher": "kvoon",
   "name": "publish-test",
   "displayName": "Publish Test",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "private": true,
   "packageManager": "pnpm@10.4.1",
   "description": "",
@@ -54,7 +54,7 @@
     "typecheck": "tsc --noEmit",
     "vscode:prepublish": "nr build",
     "release": "bumpp",
-    "ext:package": "vsce package --no-dependencies",
+    "ext:pack": "vsce package --no-dependencies",
     "ext:publish": "vsxpub --no-dependencies"
   },
   "devDependencies": {
